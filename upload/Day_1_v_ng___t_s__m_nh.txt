@@ -1,0 +1,229 @@
+Day 1: vùng đất sứ mệnh 
+-KEYWORD:  Instructor , try all - error , truyền cảm hứng ( AI - aspire to inspire, ASpire to instructor )
+
+
+- 153 đống đa
+- Truyền lửa, đam mê, hướng dẫn, chăm sóc, động viên
+- AI - aspire to inspire
+- Nhiệt huyết và cam kết, chân thành , lắng nghe và thấu hiểu
+
+
+-> Sợ học viên không có thích thú, động lực học
+- Không có động lực hoặc hứng thú học
+---> Dẫn đến không hiêủ bài, áp lực , đánh giá
+
+Cthuc ktra đủ niềm đam mê không ?
+
+-Mình nên làm gì để vượt qua rào cản đó ?
++ Nội lực: Tự bản thân
+Hiểu tâm lý và nhu cầu của học viên
++ Ngoại lực: Phần thưởng nhỏ
+
+Day 2: Vùng đất lãnh đạo
+Mục tiêu: 
+ + Biết cách quản lý lớp
+ + Xây dựng môi trường tích cực, không nhàm chán
+ Vai trò:
+ + Tạo mtrg an toàn, cởi mở
+ + Khuyến khích sự tập trung, kiên nhẫn
+ + Tối ưu hoá thời gian học tập
+ Yêu cầu với hướng dẫn viên:
+ + Hiểu rõ mục tiêu và nội dung bài giảng
+ + Linh hoạt trong cách tiếp cận
+ + Có khả năng giao tiếp và lắng nghe
+ + Kiên nhẫn và công bằng
+
+
+Bạn mong muốn quản lý lớp như thế nào ?
+- Em muốn muốn việc quản lý lớp một cách nghiêm , tôn trọng lẫn nhau nhưng vui vẻ, mọi người hoà đồng, có động lực có sự tò mò tìm hiểu hỏi han lẫn nhau. 
+
+Bản thân sẽ gặp trở ngại gì trong quá trình quản lý lớp ?
+ - KHác biệt về năng lực và sự chú ý của học viên
+ - Duy trì sự nghiêm túc trong lớp học vui vẻ
+ - GIữ được sự tôn trọng lẫn nhau
+ - Thách thức về động lực và sự tò mò
+
+==> Nên có kịch bản cụ thể, bám vào nó
+==> Có lòng tin : Hứa j thì nhớ làm ( Nói là làm) , Chạy code oce , hiểu
+==> Trao đổi nội quy trong lớp ( nên làm gì và ko nên làm gì ? )
+==> Viết hợp đồng cam kết về quy tắc lớp học ==> Lầm, công bằng trong nội quy
+==> Khen học sinh, tuyệt đối không chê học sinh
+
+Tình huống " Xảy ra mẫu thuẫn giữa các học sinh "
+Lý do tại sao tình huống này xảy ra ?
+- 2 nguyên nhân chính:
+ + Hoạt động cá nhân học viên:  
+   + KHác biệt kỹ năng và tiến độ:
+     / Tiếp thu nhanh chậm 	
+     / Học viên muốn thể hiện bản thân 	hơn trong các bài tập lớn, dự 	án
+	=>  gây ra cảm giác ganh đua 	hoặc thiếu tự tin, dẫn đến mâu 	thuẫn giữa các học sinh.
+ + Hoạt động tập thể:
+   + Giao tiếp trong làm việc nhóm:
+	/ Thiếu sự đồng bộ, ý tưởng, 
+	hiểu lầm, tôn trọng
+==> THiếu khả năng giải quyết vấn đề - VẤN ĐỀ KỸ NĂNG MỀM
+
+Theo bạn, là giáo viên bạn sẽ xử lý như thế nào ?
+Step 0: Cuối buổi giải quyết -> Ghi lại nói một cách nhẹ nhàng
+Step 1: Bình tĩnh, lắng nghe từng học viên / nhóm-> cảm nhận đc sự tôn trọng
+Step 2: Dạy học sinh về cách giao tiếp tích cực như " Theo quan điểm ..., tôi cảm thấy " -> Dùng những từ tích cực, không tổn thương -> DẠY KỸ NĂM MỀM - GIẢI QUYẾT VẤN ĐỀ
+Step 3: Sau khi giải quyết xung đột:
+	+ Theo dõi tình hình
+==> Bình tĩnh tách 2 bạn ra, nói nhẹ nhàng, nghe được cuộc hội thoại, buổi sau giải quyết.
+==> Không nói đúng sai, đứng giữa, tách ngăn
+
+--> Giải quyết tình huống trong lớp học
+==> NHẪN, CÔNG BẰNG VÀ YÊU THƯƠNG HỌC TRÒ
+
+Day 3: Happy Land - Vùng đất vui vẻ, tổ chức hoạt động
+-Vai trò:
+ + funny, teamwork, creativity - sáng tạo, exploration, 1w
+- Buổi thứ 5, giới thiệu  cách sáng tạo
+- Trò chơi : Đoán ô chữ,...
+Lý thuyết:
+ + Hiểu vai trò của việc tổ chức hoạt động trong giảng dạy lập trình
+ + Nắm bắt cách chuẩn bị và tổ chức các hoạt động lớp hiệu quả
+ + Học hỏi các thủ thuật để ...
+Vai trò của việc tổ chức hoạt động lớp :
+Các thủ thuật:
+ + Đọc ky giao án --> bổ sung thêm trò chơi
+ + Chuẩn bị tâm thế trước khi vào lớp 
+   = Hình dung 1 lớp học tích cực
+   = Mỉm cười trc khi vào lớp
+ + Động viên khích lệ học sinh trong giờ học 
+   = Ko chê bai, so sánh
+   = Tạo mục tiêu nhỏ, tạo bảng điểm tích luỹ
+   = Khen ngợi học sinh
+ + Học hỏi từ video hoặc senpai, quan sát giáo viên triển khai
+ + Đến lớp trước 10-15p 
+Thủ thuật tổ chức trò chơi : 
+ + https://meet.google.com/jkn-uxjg-ffc?pli=1&authuser=3
+ + https://www.canva.com/design/DAGVhiXaF9k/ECy_A41IjNPHjovhb8Flkg/edit
+
+Khái niệm lập trình giảng trong 5p, áp dụng các kiên thức để xem học trò hiểu bài hay chưa ? Giảng cho một người chưa biết về lập trình ? Biết về khái niệm lập trình
+
+
+
+Day 4: Vùng đất tương tác
+
+Mục tiêu:
+ + Hiểu vai trò đặt câu hỏi
+ + Hiểu hình thức câu hỏi: đóng / mở, CCQ, ICQ
+ + Cách triển khai CCQ, ICQ
+Vai trò:
+ + 
+--> Đa số sử dụng câu hỏi Mở để hỏi học viên
+
+- Câu hỏi mở: Câu hỏi mở khuyến khích sự diễn giải, chia sẻ nhiều thông tin hơn, và giúp khám phá các ý tưởng mới từ người trả lời.
+- Câu hỏi đóng: Câu hỏi đóng không yêu cầu giải thích chi tiết và thường hướng người trả lời vào một câu trả lời cụ thể.
+
+- Dùng ICQ khi bạn muốn kiểm tra xem học sinh hiểu rõ hướng dẫn của mình.
+- Dùng CCQ khi bạn muốn chắc chắn rằng học sinh hiểu sâu sắc khái niệm hoặc nội dung đã học.
+
+==> LẬP TRÌNH PYTHON ĐIỀU KHIỂN ROBOT
+
+Trình bày nên chậm, tự tin, vui vẻ
+Ví dụ: Cho học sinh tự tạo ví dụ
+
+Day 5: Vùng đất sáng tạo
+
+Kỹ thuật sáng tạo: SCAMPER
+S - Substitute (Thay thế): Thay đổi một phần của sản phẩm hoặc quy trình bằng cách thay thế nó bằng một thứ khác.
+C - Combine (Kết hợp): Kết hợp các yếu tố, ý tưởng hoặc sản phẩm khác nhau để tạo ra điều gì đó mới mẻ hoặc khác biệt.
+A - Adapt (Thích nghi): Điều chỉnh hoặc điều chỉnh một ý tưởng hoặc sản phẩm để nó phù hợp với một mục đích hoặc môi trường mới.
+M - Modify (Sửa đổi): Thay đổi kích thước, hình dáng hoặc các đặc điểm khác của sản phẩm để làm mới hoặc cải tiến nó.
+P - Put to Another Use (Sử dụng cho mục đích khác): Nghĩ cách sử dụng sản phẩm cho các mục đích khác với mục đích ban đầu.
+E - Eliminate (Loại bỏ): Loại bỏ hoặc giản lược một số phần của sản phẩm hoặc quy trình để làm cho nó đơn giản hoặc tiết kiệm hơn.
+R - Rearrange (Sắp xếp lại) hoặc Reverse (Đảo ngược): Sắp xếp lại các thành phần hoặc đảo ngược quá trình hoặc chức năng để tạo ra một kết quả mới.
+
+Sử dụng phương pháp SCAMPER trên đưa ra nội dung mơi gợi ý để phát triển chương trình điều khiển drone theo quỹ đạo mặc định : 
+
+--> ứng dụng SCAMPER :
+ + Áp dụng vào các "Cháy giáo án " - dư giờ
+ + Bài tập ổn hơn
+--> Hoặc mở chatGPT ra hỏi những TH cụ thể
+ 
+CẦM ẢNH CUTE ĐỂ TƯỞNG TƯỢNG LỚP HỌC SINH ĐỘNG HAY TRƯỚC KHI THUYẾT TRÌNH
+
+QUY TRÌNH GIẢNG DẠY 
+
+Cảm nhận, thắc mắc
+
+- Mặt nghiêm
+- Trình bày nên đặt gạch trước nội dung đầu dòng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -61,6 +61,7 @@ public class MessageController {
             System.out.println("Sender: " + senderId);
             System.out.println("Receiver: " + receiverId);
             String filePath = messageService.uploadFile(file, senderId, receiverId);
+            System.out.println("File path: " + filePath);
             if (filePath == null) {
                 return Response.<String>builder()
                         .success(false)

@@ -70,29 +70,46 @@ public class MessageService {
     public String uploadFile(MultipartFile file, String senderId, String receiverId) {
         // Kiểm tra file rỗng
         if (file.isEmpty()) {
+            System.err.println("File is empty");
             return null;
         }
 
         try {
-            // Lưu file vào thư mục upload
-            String fileName = file.getOriginalFilename();
-            String filePath = "upload/" + fileName;
+            // Tạo đường dẫn lưu tệp
+            String sanitizedFileName = file.getOriginalFilename().replaceAll("[^a-zA-Z0-9\\.\\-_]", "_");
+            String uploadDir = System.getProperty("user.dir") + File.separator + "upload"; // Sử dụng thư mục tuyệt đối
+            String filePath = uploadDir + File.separator + sanitizedFileName;
+
+            // Kiểm tra và tạo thư mục nếu cần
             File dest = new File(filePath);
+            if (!dest.getParentFile().exists()) {
+                if (dest.getParentFile().mkdirs()) {
+                    System.out.println("Upload directory created at: " + uploadDir);
+                } else {
+                    System.err.println("Failed to create upload directory");
+                    return null;
+                }
+            }
+
+            // Lưu file vào thư mục upload
             file.transferTo(dest);
+            System.out.println("File uploaded successfully to: " + filePath);
 
             // Lưu thông tin file vào database
             Message message = Message.builder()
                     .senderId(senderId)
                     .receiverId(receiverId)
-                    .content(fileName)
+                    .content(filePath) // Lưu tên tệp đã được xử lý
                     .timestamp(LocalDateTime.now())
                     .build();
             messageRepo.save(message);
 
-            return filePath;
+            return filePath; // Trả về đường dẫn tệp
         } catch (IOException e) {
+            System.err.println("Error uploading file: " + e.getMessage());
             e.printStackTrace();
             return null;
         }
     }
+
 }
