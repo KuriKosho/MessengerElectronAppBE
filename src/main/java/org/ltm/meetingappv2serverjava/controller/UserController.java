@@ -22,9 +22,21 @@ public class UserController {
     private UserService userService;
     @Autowired
     private SimpMessagingTemplate messagingTemplate;
+    @PostMapping("/verify")
+    public Response<Boolean> verify(@RequestBody Verify verify) {
+        System.out.println("Verify: " + verify.toString());
+        boolean result = userService.verify(verify.getEmail(), verify.getCode());
+        if (result) {
+            messagingTemplate.convertAndSend("/topic/users", userService.getAllUsers());
+            return new Response<Boolean>(true,result);
+        } else {
+            return new Response<Boolean>(false,null);
+        }
+    }
 
     @PostMapping("/register")
     public Response<User> register(@RequestBody Register register) {
+        System.out.println("Register: " + register.toString());
         User user = userService.register(register);
         if (user == null) {
             return new Response<User>(false,null);

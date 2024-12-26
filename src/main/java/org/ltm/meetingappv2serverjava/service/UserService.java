@@ -9,9 +9,9 @@ import org.ltm.meetingappv2serverjava.model.User;
 import org.ltm.meetingappv2serverjava.repository.ConversationRepo;
 import org.ltm.meetingappv2serverjava.repository.MessageRepo;
 import org.ltm.meetingappv2serverjava.repository.UserRepo;
+import org.ltm.meetingappv2serverjava.utils.otpUtils;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
@@ -24,6 +24,31 @@ public class UserService {
     private final UserRepo userRepo;
     private final MessageRepo messageRepo;
     private final ConversationRepo conversationRepo;
+    private final EmailService emailService;
+    public boolean verify(String email, String code) {
+        System.out.println("Email 111: "+email);
+        System.out.println("Code 111: "+code);
+        User user = userRepo.findByEmail(email);
+        System.out.println("User 222: "+user);
+        if (user == null) {
+            System.out.println("User not found: "+email);
+            return false;
+        }
+        System.out.println("User otp: "+user.getOtp());
+        if (user.isVerified()) {
+            System.out.println("User already verified: "+email);
+            return true;
+        }
+        if (user.getOtp().trim().equals(code.trim())) {
+            System.out.println("User verified: "+email);
+            user.setVerified(true);
+            userRepo.save(user);
+            return true;
+        }
+        System.out.println("User not verified 333: "+email);
+        return false;
+    }
+
 
     public User login(String email, String password) {
         User user = userRepo.findByEmailAndPassword(email, password);
@@ -35,13 +60,23 @@ public class UserService {
         return user;
     }
     public User register(Register register) {
-        if (userRepo.findByEmail(register.getEmail()) != null) {
+        try {
+            if (userRepo.findByEmail(register.getEmail()) != null) {
+                return null;
+            }
+            User user = new User(register.getUsername(), register.getEmail(), register.getPassword());
+            user.setOnline(true);
+            user.setTimestamp(LocalDateTime.now());
+            String otp = otpUtils.generateOTP();
+            user.setOtp(otp);
+            user.setVerified(false);
+            emailService.sendVerificationMail(user.getEmail(), "Verification Code", otp);
+            return userRepo.save(user);
+        } catch (Exception e) {
+            e.printStackTrace();
             return null;
         }
-        User user = new User(register.getUsername(), register.getEmail(), register.getPassword());
-        user.setOnline(true);
-        user.setTimestamp(LocalDateTime.now());
-        return userRepo.save(user);
+
     }
     public UserDTO getUserByEmail(String email) {
         User user = userRepo.findByEmail(email);

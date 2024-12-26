@@ -8,7 +8,11 @@ import org.ltm.meetingappv2serverjava.repository.ConversationRepo;
 import org.ltm.meetingappv2serverjava.repository.MessageRepo;
 import org.ltm.meetingappv2serverjava.repository.UserRepo;
 import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.File;
+import java.io.IOException;
+import java.time.LocalDateTime;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
@@ -60,6 +64,35 @@ public class MessageService {
             return messages;
         } catch (Exception e) {
             throw new RuntimeException("Error retrieving messages: " + e.getMessage(), e);
+        }
+    }
+
+    public String uploadFile(MultipartFile file, String senderId, String receiverId) {
+        // Kiểm tra file rỗng
+        if (file.isEmpty()) {
+            return null;
+        }
+
+        try {
+            // Lưu file vào thư mục upload
+            String fileName = file.getOriginalFilename();
+            String filePath = "upload/" + fileName;
+            File dest = new File(filePath);
+            file.transferTo(dest);
+
+            // Lưu thông tin file vào database
+            Message message = Message.builder()
+                    .senderId(senderId)
+                    .receiverId(receiverId)
+                    .content(fileName)
+                    .timestamp(LocalDateTime.now())
+                    .build();
+            messageRepo.save(message);
+
+            return filePath;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
         }
     }
 }

@@ -15,6 +15,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+@ToString
 public class User {
     @Id
     @MongoId
@@ -24,7 +25,8 @@ public class User {
     private String password;
     private boolean isOnline;
     private LocalDateTime timestamp;
-
+    private String otp;
+    private boolean isVerified;
     public User(String username, String email, String password) {
         this.username = username;
         this.email = email;

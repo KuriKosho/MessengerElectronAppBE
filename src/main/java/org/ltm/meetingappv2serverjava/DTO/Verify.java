@@ -4,13 +4,11 @@ import lombok.*;
 
 @Getter
 @Setter
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 @ToString
-public class Register {
-    private String username;
+public class Verify {
     private String email;
-    private String password;
-    private String confirmPassword;
+    private String code;
 }
